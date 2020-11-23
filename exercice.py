@@ -8,7 +8,7 @@ from inspect import *
 
 from game import *
 
-
+k
 def simulate_battle():
 	c1 = Character("Äpik", 500, 150, 70, 70)
 	c2 = Character("Gämmör", 550, 100, 120, 60)
@@ -22,7 +22,6 @@ def simulate_battle():
 
 	turns = run_battle(c3, c1)
 	print(f"The battle ended in {turns} turns.")
-
 
 def main():
 	simulate_battle()
